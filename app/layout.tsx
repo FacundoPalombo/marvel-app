@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import styles from "./layout.module.css";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header>
+          <Image
+            src="/vercel.svg"
+            alt="Vercel Logo"
+            className={styles.marvelLogo}
+            width={100}
+            height={24}
+            priority
+          />
+        </header>
+        {children}
+        <footer>Data provided by Marvel. © 2014 Marvel</footer>
+      </body>
     </html>
   );
 }
