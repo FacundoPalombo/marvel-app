@@ -2,6 +2,9 @@
 
 Prueba tecnica para Inditex
 
+Puedes ver el proyecto en producción aqui: 
+[https://marvel-lffitq6iz-facundo-palombos-projects.vercel.app/](https://marvel-lffitq6iz-facundo-palombos-projects.vercel.app/)
+
 ## Table of Contents
 
 <!-- TOC -->

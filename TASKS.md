@@ -4,10 +4,12 @@ Esta guia tiene listadas las user stories que se harán y las sub-tareas que se 
 
 
 1. Preparación de entorno de desarrollo y configuración de proyecto
-  - [ ] Crear proyecto con next.js
-  - [ ] Configurar el pipeline para el build a prod
-  - [ ] Configurar el linter automatizado y actions pre y post commit
-  - [ ] Configurar github actions
+  - [x] Crear proyecto con next.js
+  - [x] Configurar el pipeline para el build a prod
+  - [x] Configurar el linter automatizado y actions pre y post commit
+  - [x] Configurar framework de testing unitario jest+testing library (para componentes)
+  - [x] Configurar framework de testing e2e playwright (para flujos)
+  - [x] Configurar github actions
 2. Vista principal 
 - [ ] Mostrará un listado de 50 personajes o el resultado de los personajes introducidos en el buscador.
    -  [ ] Operaciones CRUD
