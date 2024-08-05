@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
 import Image from "next/image";
+import Marvel from "./components/svg/Marvel";
+import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
+const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,25 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/icons/favicon.ico" sizes="any" />
-        <link
-          rel="apple-touch-icon"
-          href="/icons/apple-touch-icon.png"
-          type="images/png"
-          sizes="any"
-        />
-      </head>
-      <body className={inter.className}>
+      <body className={robotoCondensed.className}>
         <header>
-          <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            className={styles.marvelLogo}
-            width={100}
-            height={24}
-            priority
-          />
+          <Link href="/" aria-label="Go to homepage">
+            <Marvel />
+          </Link>
         </header>
         {children}
         <footer>Data provided by Marvel. © 2014 Marvel</footer>

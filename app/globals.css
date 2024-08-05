@@ -9,7 +9,8 @@
   --primary: #ec1e23;
   --secondary: #000;
   --background: #fff;
-  --font: #fff;
+  --font: #000;
+  --font-secondary: #fff;
 
   /* TEXT-SIZES */
   --text-xs: 0.5em;
@@ -27,7 +28,8 @@
   :root {
     --background: #000;
     --secondary: #fff;
-    --font: #000;
+    --font: #fff;
+    --font-secondary: #000;
   }
 }
 
