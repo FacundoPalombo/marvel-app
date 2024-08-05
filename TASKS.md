@@ -20,10 +20,11 @@ Esta guia tiene listadas las user stories que se harán y las sub-tareas que se 
       -  [ ] Crear componente Card de heroe 
       -  [ ] Listar los heroes en el home
       -  [ ] Crear componente de filtro de busqueda que filtre con los resultados traidos de la api.
+   -  [ ] Crear la acción de favorito
       -  [ ] Crear el boton y accion de "agregar favorito" en la card.
       -  [ ] Crear el Context de react de favoritos que almacena y elimina los favoritos de la app en un LocalStorage
       -  [ ] Al hacer clic en el icono superior de favoritos, se deberán mostrar los personajes favoritos almacenados. 
 1. Detalle de personaje 
 - [ ]  Mostrar información relativa al personaje y los cómics en los que aparece.
    -  [ ] Crear componente  de detalle
-   -  [ ] Crear componente de listado de comics donde aparece
+   -  [ ] Crear componente de listado de comics donde aparece el personaje, solo deben ser los primeros 20
