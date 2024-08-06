@@ -30,7 +30,11 @@ export default function Card({
           }
           onClick={onClickFavorite}
         >
-          {favorite ? <HeartFilled /> : <HeartOutline />}
+          {favorite ? (
+            <HeartFilled />
+          ) : (
+            <HeartOutline className={styles.content__heartOutlined} />
+          )}
         </button>
       </div>
       <div className={styles.card__borderShape} />

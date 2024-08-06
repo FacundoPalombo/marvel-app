@@ -22,9 +22,6 @@
   --text-3xl: 3em;
   --text-4xl: 3.5em;
   --text-5xl: 4em;
-
-  /* VIEWPORT SIZES*/
-  --mobile-width: 640px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -58,9 +55,9 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: var(--mobile-width)) {
+@media screen and (max-width: 640px) {
   html {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 

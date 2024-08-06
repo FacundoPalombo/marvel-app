@@ -1,6 +1,11 @@
-export function HeartOutline() {
+type HeartProps = {
+  className?: string;
+};
+
+export function HeartOutline({ className = "" }: HeartProps) {
   return (
     <svg
+      className={className}
       width="26"
       height="25"
       viewBox="0 0 26 25"
@@ -15,9 +20,10 @@ export function HeartOutline() {
   );
 }
 
-export function HeartFilled() {
+export function HeartFilled({ className = "" }: HeartProps) {
   return (
     <svg
+      className={className}
       width="24"
       height="22"
       viewBox="0 0 24 22"
