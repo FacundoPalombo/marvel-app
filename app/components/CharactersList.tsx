@@ -8,6 +8,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useCallback } from "react";
 
 import { useDebouncedCallback } from "use-debounce";
+import Link from "next/link";
 
 type CharactersListProps = {
   characters: Character[];
@@ -43,13 +44,15 @@ export default function CharactersList({ characters }: CharactersListProps) {
       <SearchBar count={50} onChange={handleSearch} />
       <section className={styles.container}>
         {characters?.map((character) => (
-          <Card
-            key={character.id}
-            title={character.name}
-            image={`${character.thumbnail.path}.${character.thumbnail.extension}`}
-            favorite={false}
-            onClickFavorite={() => {}}
-          />
+          <div key={character.id}>
+            <Link className={styles.link} href={`/character/${character.id}`} />
+            <Card
+              title={character.name}
+              image={`${character.thumbnail.path}.${character.thumbnail.extension}`}
+              favorite={false}
+              onClickFavorite={() => {}}
+            />
+          </div>
         ))}
       </section>
     </>

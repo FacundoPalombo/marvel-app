@@ -12,7 +12,6 @@ export default async function Favorites({ searchParams }: PageProps) {
   const character = searchParams?.character;
   // const characters: CharactersResponse = await getCharacters(character);
 
-  console.log(characters.etag);
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>Favorites</h1>
