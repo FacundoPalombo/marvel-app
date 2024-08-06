@@ -52,21 +52,15 @@ export type Stories = {
 export type StoriesItem = {
   resourceURI: string;
   name: string;
-  type: ItemType;
+  type: string;
 };
-
-export type ItemType = "cover" | "" | "interiorStory";
 
 export type Thumbnail = {
   path: string;
-  extension: Extension;
+  extension: string;
 };
-
-export type Extension = "jpg";
 
 export type URL = {
-  type: URLType;
+  type: string;
   url: string;
 };
-
-export type URLType = "comiclink" | "detail" | "wiki";

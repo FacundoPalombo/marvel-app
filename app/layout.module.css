@@ -6,4 +6,21 @@
   width: 100%;
   background-color: var(--secondary);
   padding: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: var(--font);
+
+  @media screen and (min-width: 640px) {
+    padding: 1em 4em;
+  }
+}
+
+.favorites {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
 }

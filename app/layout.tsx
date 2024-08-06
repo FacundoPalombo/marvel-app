@@ -5,6 +5,8 @@ import styles from "./layout.module.css";
 import Image from "next/image";
 import Marvel from "./components/svg/Marvel";
 import Link from "next/link";
+import Head from "next/head";
+import { HeartFilled } from "./components/svg/Heart";
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
@@ -18,13 +20,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const hearts = 3;
   return (
     <html lang="en">
+      <Head>
+        <title>Marvel Heroes</title>
+      </Head>
       <body className={robotoCondensed.className}>
         <header className={styles.header}>
           <Link href="/" aria-label="Go to homepage" className={styles.logo}>
             <Marvel />
           </Link>
+          <span className={styles.favorites}>
+            <HeartFilled /> {hearts}
+          </span>
         </header>
         {children}
         <footer>
