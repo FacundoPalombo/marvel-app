@@ -1,6 +1,5 @@
 import { API_BASE_URL } from "@/constants/URL";
 import createParams from "../lib/createParams";
-import { writeFileSync } from "fs";
 
 export const getCharacters = async (characterName: string) => {
   const { hash, ts, apikey } = createParams();

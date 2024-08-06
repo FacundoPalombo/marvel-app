@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComicList unit tests should match to snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="comicList"
+  >
+    <h2
+      class="comicList__title"
+    >
+      Comics
+    </h2>
+    <section
+      class="comicList__content"
+    >
+      <div
+        class="comic"
+      >
+        <img
+          alt="Spider-Society (2024) #2"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/3/a0/6669b8062d1c4.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Spider-Society (2024) #2
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Spider-Society (2024) #1"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/d/00/664ccf71e9ac9.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Spider-Society (2024) #1
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Symbiote Spider-Man 2099 (2024) #5"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/6/b0/66a7f5e52491a.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Symbiote Spider-Man 2099 (2024) #5
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Symbiote Spider-Man 2099 (2024) #4"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/e/30/667977325229a.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Symbiote Spider-Man 2099 (2024) #4
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Symbiote Spider-Man 2099 (2024) #3"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/5/c0/663e5c1a050e3.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Symbiote Spider-Man 2099 (2024) #3
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Symbiote Spider-Man 2099 (2024) #2"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/8/60/661541cac0d0c.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Symbiote Spider-Man 2099 (2024) #2
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Web of Spider-Man (2024) #1"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/9/f0/65f07445dfbf7.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Web of Spider-Man (2024) #1
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Symbiote Spider-Man 2099 (2024) #1"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/3/a0/65e739364d13a.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Symbiote Spider-Man 2099 (2024) #1
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Edge of Spider-Verse (2024) #1"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/2/30/65cccfb62bc3f.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Edge of Spider-Verse (2024) #1
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Miguel O'hara - Spider-Man: 2099 (2024) #5"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/c/f0/65b2c8d6c8d6e.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Miguel O'hara - Spider-Man: 2099 (2024) #5
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Miguel O'hara - Spider-Man: 2099 (2024) #4"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/6/60/65a93b2e706c4.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Miguel O'hara - Spider-Man: 2099 (2024) #4
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Miguel O'hara - Spider-Man: 2099 (2024) #3"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/6/00/65a00c66ab557.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Miguel O'hara - Spider-Man: 2099 (2024) #3
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Miguel O'hara - Spider-Man: 2099 (2024) #2"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/f/03/6596e1177a716.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Miguel O'hara - Spider-Man: 2099 (2024) #2
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Miguel O'hara - Spider-Man: 2099 (2024) #1"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/c/03/6596e173b7350.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Miguel O'hara - Spider-Man: 2099 (2024) #1
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2024
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Spider-Man 2099: Dark Genesis (Trade Paperback)"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/1/10/64e3c69254287.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Spider-Man 2099: Dark Genesis (Trade Paperback)
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2023
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #12"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/3/00/6467d5b6103a2.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #12
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2023
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #5"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/4/60/6467c59076f5e.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #5
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2023
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #14"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/4/50/6467d5c9264e7.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #14
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2023
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #7"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/c/f0/6467c5df0f9cc.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #7
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2023
+        </span>
+      </div>
+      <div
+        class="comic"
+      >
+        <img
+          alt="Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #9"
+          class="comic__image"
+          src="http://i.annihil.us/u/prod/marvel/i/mg/6/d0/6467d5b61cd66.jpg"
+        />
+        <h3
+          class="comic__title"
+        >
+          Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #9
+        </h3>
+        <span
+          class="comic__issueDate"
+        >
+          2023
+        </span>
+      </div>
+    </section>
+  </section>
+</DocumentFragment>
+`;

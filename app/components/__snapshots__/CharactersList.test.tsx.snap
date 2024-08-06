@@ -1,0 +1,892 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharactersList Unit tests should match snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-dok"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-dok
+        </p>
+        <button
+          aria-label="Spider-dok is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Girl (Anya Corazon)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/a/10/528d369de3e4f.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Girl (Anya Corazon)
+        </p>
+        <button
+          aria-label="Spider-Girl (Anya Corazon) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Girl (May Parker)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/1/70/4c003adccbe4f.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Girl (May Parker)
+        </p>
+        <button
+          aria-label="Spider-Girl (May Parker) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Gwen (Gwen Stacy)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/c/90/54edf8eb8f102.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Gwen (Gwen Stacy)
+        </p>
+        <button
+          aria-label="Spider-Gwen (Gwen Stacy) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Ham (Larval Earth)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Ham (Larval Earth)
+        </p>
+        <button
+          aria-label="Spider-Ham (Larval Earth) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (1602)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/e/03/5317713c9e746.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (1602)
+        </p>
+        <button
+          aria-label="Spider-Man (1602) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (2099)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/8/c0/520d1ad3e543f.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (2099)
+        </p>
+        <button
+          aria-label="Spider-Man (2099) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Ai Apaec)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/4fce7a4d900f4.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Ai Apaec)
+        </p>
+        <button
+          aria-label="Spider-Man (Ai Apaec) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Ben Reilly)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/9/c0/5317717bed6fe.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Ben Reilly)
+        </p>
+        <button
+          aria-label="Spider-Man (Ben Reilly) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (House of M)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/3/60/5317718f0a2e7.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (House of M)
+        </p>
+        <button
+          aria-label="Spider-Man (House of M) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (LEGO Marvel Super Heroes)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/5/03/5239c4d095611.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (LEGO Marvel Super Heroes)
+        </p>
+        <button
+          aria-label="Spider-Man (LEGO Marvel Super Heroes) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Marvel Zombies)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/3/00/531772716d0ac.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Marvel Zombies)
+        </p>
+        <button
+          aria-label="Spider-Man (Marvel Zombies) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Marvel: Avengers Alliance)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/9/03/5239b59f49020.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Marvel: Avengers Alliance)
+        </p>
+        <button
+          aria-label="Spider-Man (Marvel: Avengers Alliance) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Miles Morales)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/f/50/537bcfa1eed73.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Miles Morales)
+        </p>
+        <button
+          aria-label="Spider-Man (Miles Morales) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Noir)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/6/40/531771a14fcf6.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Noir)
+        </p>
+        <button
+          aria-label="Spider-Man (Noir) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Peter Parker)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Peter Parker)
+        </p>
+        <button
+          aria-label="Spider-Man (Peter Parker) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Takuya Yamashiro)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/f/50/4be86ad8ada17.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Takuya Yamashiro)
+        </p>
+        <button
+          aria-label="Spider-Man (Takuya Yamashiro) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Man (Ultimate)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/3/50/531771b4e8c60.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Man (Ultimate)
+        </p>
+        <button
+          aria-label="Spider-Man (Ultimate) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Woman (Charlotte Witter)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/c/60/531771afe4ffa.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Woman (Charlotte Witter)
+        </p>
+        <button
+          aria-label="Spider-Woman (Charlotte Witter) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Woman (Jessica Drew)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/b/50/5265479097743.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Woman (Jessica Drew)
+        </p>
+        <button
+          aria-label="Spider-Woman (Jessica Drew) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+    <div
+      class="container"
+    >
+      <img
+        alt="Spider-Woman (Mattie Franklin)"
+        class="card__thumbnail"
+        src="http://i.annihil.us/u/prod/marvel/i/mg/2/30/531771c2ab020.jpg"
+      />
+      <hr
+        class="card__separator"
+      />
+      <div
+        class="card__content"
+      >
+        <p
+          class="content__title"
+        >
+          Spider-Woman (Mattie Franklin)
+        </p>
+        <button
+          aria-label="Spider-Woman (Mattie Franklin) is not favorite"
+          class="content__favorite"
+        >
+          <svg
+            class="content__heartOutlined"
+            fill="none"
+            height="25"
+            viewBox="0 0 26 25"
+            width="26"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 1.67337L7.51885 0.818504L7 0.503596L6.48115 0.818505L7 1.67337ZM13 5.31499L12.4812 6.16985L13 6.48476L13.5188 6.16985L13 5.31499ZM1 5.31499L0.481151 4.46012L0 4.75215V5.31499H1ZM1 13.1185H0V13.58L0.351203 13.8794L1 13.1185ZM13 23.3497L12.3512 24.1106L13 24.6638L13.6488 24.1106L13 23.3497ZM25 13.1185L25.6488 13.8794L26 13.58V13.1185H25ZM25 5.31499H26V4.75215L25.5188 4.46012L25 5.31499ZM19 1.67337L19.5189 0.818505L19 0.503596L18.4812 0.818504L19 1.67337ZM6.48115 2.52824L12.4812 6.16985L13.5188 4.46012L7.51885 0.818504L6.48115 2.52824ZM1.51885 6.16985L7.51885 2.52824L6.48115 0.818505L0.481151 4.46012L1.51885 6.16985ZM2 13.1185V5.31499H0V13.1185H2ZM13.6488 22.5887L1.6488 12.3575L0.351203 13.8794L12.3512 24.1106L13.6488 22.5887ZM13.6488 24.1106L25.6488 13.8794L24.3512 12.3575L12.3512 22.5887L13.6488 24.1106ZM26 13.1185V5.31499H24V13.1185H26ZM25.5188 4.46012L19.5189 0.818505L18.4812 2.52824L24.4812 6.16985L25.5188 4.46012ZM18.4812 0.818504L12.4812 4.46012L13.5188 6.16985L19.5189 2.52824L18.4812 0.818504Z"
+              fill="white"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="card__borderShape"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;
