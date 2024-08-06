@@ -1,3 +1,9 @@
 .footerText {
   font-size: var(--text-xs);
 }
+
+.header {
+  width: 100%;
+  background-color: var(--secondary);
+  padding: 1em;
+}

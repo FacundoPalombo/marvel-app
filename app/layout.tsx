@@ -21,13 +21,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={robotoCondensed.className}>
-        <header>
-          <Link href="/" aria-label="Go to homepage">
+        <header className={styles.header}>
+          <Link href="/" aria-label="Go to homepage" className={styles.logo}>
             <Marvel />
           </Link>
         </header>
         {children}
-        <footer>Data provided by Marvel. © 2014 Marvel</footer>
+        <footer>
+          <a href="http://marvel.com">
+            Data provided by Marvel. © 2024 MARVEL
+          </a>
+        </footer>
       </body>
     </html>
   );
