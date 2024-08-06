@@ -1,1 +1,328 @@
-{"code":200,"status":"Ok","copyright":"© 2024 MARVEL","attributionText":"Data provided by Marvel. © 2024 MARVEL","attributionHTML":"<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>","etag":"3e59a83d74dc3c6a4d9fa1b9bc25de3e35f94a8a","data":{"offset":0,"limit":20,"total":1,"count":1,"results":[{"id":1011266,"name":"Adam Destine","description":"","modified":"1969-12-31T19:00:00-0500","thumbnail":{"path":"http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available","extension":"jpg"},"resourceURI":"http://gateway.marvel.com/v1/public/characters/1011266","comics":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011266/comics","items":[],"returned":0},"series":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011266/series","items":[],"returned":0},"stories":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011266/stories","items":[],"returned":0},"events":{"available":0,"collectionURI":"http://gateway.marvel.com/v1/public/characters/1011266/events","items":[],"returned":0},"urls":[{"type":"detail","url":"http://marvel.com/characters/2902/adam_destine?utm_campaign=apiRef&utm_source=020120e00528f32b7709afa319dacb0c"},{"type":"wiki","url":"http://marvel.com/universe/Destine,_Adam?utm_campaign=apiRef&utm_source=020120e00528f32b7709afa319dacb0c"},{"type":"comiclink","url":"http://marvel.com/comics/characters/1011266/adam_destine?utm_campaign=apiRef&utm_source=020120e00528f32b7709afa319dacb0c"}]}]}}
+{
+  "code": 200,
+  "status": "Ok",
+  "copyright": "© 2024 MARVEL",
+  "attributionText": "Data provided by Marvel. © 2024 MARVEL",
+  "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>",
+  "etag": "3938bdb18f0acba5f2861a89f5fdc49464ff3439",
+  "data": {
+    "offset": 0,
+    "limit": 20,
+    "total": 1,
+    "count": 1,
+    "results": [
+      {
+        "id": 1014873,
+        "name": "Spider-Man (2099)",
+        "description": "",
+        "modified": "2016-06-08T12:29:32-0400",
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/c0/520d1ad3e543f",
+          "extension": "jpg"
+        },
+        "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014873",
+        "comics": {
+          "available": 100,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014873/comics",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53425",
+              "name": "2099 Unlimited (1993) #1"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53426",
+              "name": "2099 Unlimited (1993) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/53427",
+              "name": "2099 Unlimited (1993) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109244",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #2"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109245",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #3"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109246",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #4"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109247",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #5"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109248",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #6"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109249",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #7"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109250",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #8"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109251",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #9"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109252",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #10"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109253",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #11"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109254",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #12"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109255",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #13"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/109256",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023) #14"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/22842",
+              "name": "Captain Marvel (2000) #28"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/22843",
+              "name": "Captain Marvel (2000) #29"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/22844",
+              "name": "Captain Marvel (2000) #30"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/113173",
+              "name": "Edge of Spider-Verse (2024) #1"
+            }
+          ],
+          "returned": 20
+        },
+        "series": {
+          "available": 31,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014873/series",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/20018",
+              "name": "2099 Unlimited (1993 - 1994)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/37466",
+              "name": "Amazing Spider-Man: Spider-Verse Infinity Comic (2023)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/690",
+              "name": "Captain Marvel (2000 - 2002)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/38857",
+              "name": "Edge of Spider-Verse (2024 - Present)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/479",
+              "name": "Exiles (2001 - 2008)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/38959",
+              "name": "Miguel O'hara - Spider-Man: 2099 (2024)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/20020",
+              "name": "Punisher 2099 (1993)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/20511",
+              "name": "Spider-Man 2099 (2015 - 2017)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/2070",
+              "name": "Spider-Man 2099 (1992 - 1996)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/20022",
+              "name": "Spider-Man 2099 Annual (1994)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/22470",
+              "name": "SPIDER-MAN 2099 CLASSIC VOL. 4 TPB (2017)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/23705",
+              "name": "Spider-Man 2099 Meets Spider-Man (1995)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/35467",
+              "name": "Spider-Man 2099 Omnibus Vol. 1 (2022)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/27380",
+              "name": "Spider-Man 2099 Special (1995)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/22125",
+              "name": "SPIDER-MAN 2099 VOL. 6: APOCALYPSE SOON TPB (2017)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/22842",
+              "name": "SPIDER-MAN 2099 VOL. 7: BACK TO THE FUTURE, SHOCK! TPB (2017)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/26634",
+              "name": "Spider-Man 2099 Vs. Venom 2099 (2019)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/37062",
+              "name": "Spider-Man 2099: Dark Genesis (2023)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/37063",
+              "name": "Spider-Man 2099: Dark Genesis (2023)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/series/33908",
+              "name": "Spider-Man 2099: Exodus (2022)"
+            }
+          ],
+          "returned": 20
+        },
+        "stories": {
+          "available": 100,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014873/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24087",
+              "name": "Old Friends... New Foes!",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24090",
+              "name": "Payback will save you, Spider-Man 2099",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24092",
+              "name": "Cover #24092",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24096",
+              "name": "The Web of Life",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24099",
+              "name": "Welcome to Nightshade",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24102",
+              "name": "Showdown in Nightshade",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24105",
+              "name": "Cover #24105",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24110",
+              "name": "This is not a clone of Spider-Man 2099",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24113",
+              "name": "Cover #24113",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24115",
+              "name": "Day of the Dead",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24118",
+              "name": "Strange 2099 Meets Spider-Man 2099 AD",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/24133",
+              "name": "Cover #24133",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/33172",
+              "name": "4 of 5 - Story B",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50196",
+              "name": "Cover #50196",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50198",
+              "name": "Cover #50198",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/50200",
+              "name": "Cover #50200",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53309",
+              "name": "Cover #53309",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/53711",
+              "name": "Cover #53711",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/58851",
+              "name": "Cover #58851",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/58853",
+              "name": "Cover #58853",
+              "type": "cover"
+            }
+          ],
+          "returned": 20
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014873/events",
+          "items": [],
+          "returned": 0
+        },
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/characters/1014873/spider-man_2099/featured?utm_campaign=apiRef&utm_source=020120e00528f32b7709afa319dacb0c"
+          },
+          {
+            "type": "wiki",
+            "url": "http://marvel.com/universe/Spider-Man%20(2099)?utm_campaign=apiRef&utm_source=020120e00528f32b7709afa319dacb0c"
+          },
+          {
+            "type": "comiclink",
+            "url": "http://marvel.com/comics/characters/1014873/spider-man_2099?utm_campaign=apiRef&utm_source=020120e00528f32b7709afa319dacb0c"
+          }
+        ]
+      }
+    ]
+  }
+}

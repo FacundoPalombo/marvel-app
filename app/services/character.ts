@@ -29,8 +29,6 @@ export const getCharacters = async (characterName: string) => {
   try {
     const response = await fetch(request);
     const data = await response.json();
-    const datawrite = JSON.stringify(data);
-    writeFileSync("./characters.json", datawrite);
     return data;
   } catch (error) {
     return { error };
@@ -59,7 +57,6 @@ export const getCharacterById = async (id: string) => {
   try {
     const response = await fetch(request);
     const data = await response.json();
-    writeFileSync("./character.json", JSON.stringify(data));
     return data;
   } catch (error) {
     return { error };
@@ -91,7 +88,6 @@ export const getComicsByCharacterId = async (characterId: string) => {
   try {
     const response = await fetch(request);
     const data = await response.json();
-    writeFileSync("./comicsById.json", JSON.stringify(data));
 
     return data;
   } catch (error) {
