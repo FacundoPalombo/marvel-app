@@ -1,5 +1,21 @@
-import styles from "./page.module.css";
+import { PageProps } from "@/.next/types/app/page";
 
-export default function Home() {
-  return <main className={styles.main}>Hello marvel</main>;
+import { CharactersResponse } from "@/models/definitions";
+
+import styles from "./page.module.css";
+import { getCharacters } from "./services/character";
+import CharactersList from "./components/CharactersList";
+
+import characters from "./fixtures/characters.json";
+
+export default async function Home({ searchParams }: PageProps) {
+  const character = searchParams?.character;
+  // const characters: CharactersResponse = await getCharacters(character);
+
+  console.log(characters.etag);
+  return (
+    <main className={styles.main}>
+      <CharactersList characters={characters.data.results} />
+    </main>
+  );
 }

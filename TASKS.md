@@ -13,9 +13,9 @@ Esta guia tiene listadas las user stories que se harán y las sub-tareas que se 
 2. Vista principal 
 - [ ] Mostrará un listado de 50 personajes o el resultado de los personajes introducidos en el buscador.
    -  [ ] Operaciones CRUD
-      -  [ ]  Probar los servicios de CRUD con postman 
+      -  [ ] Probar los servicios de CRUD con postman 
       -  [ ] Configurar variables de entorno para agregar el API_KEY a las requests
-      -  [ ] Crear los servicios de CRUD de heroes, consulta y favorito 
+      -  [ ] Crear los servicios de get de listado de personajes, busqueda por id el detalle y listar los comics por id de personaje
    -  [ ] Visualizar el listado de la api en el frontend
       -  [ ] Crear componente Card de heroe 
       -  [ ] Listar los heroes en el home

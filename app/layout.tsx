@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
 import Image from "next/image";
+import Marvel from "./components/svg/Marvel";
+import Link from "next/link";
+import Head from "next/head";
+import { HeartFilled } from "./components/svg/Heart";
 
-const inter = Inter({ subsets: ["latin"] });
+const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,30 +20,27 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const hearts = 3;
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/icons/favicon.ico" sizes="any" />
-        <link
-          rel="apple-touch-icon"
-          href="/icons/apple-touch-icon.png"
-          type="images/png"
-          sizes="any"
-        />
-      </head>
-      <body className={inter.className}>
-        <header>
-          <Image
-            src="/vercel.svg"
-            alt="Vercel Logo"
-            className={styles.marvelLogo}
-            width={100}
-            height={24}
-            priority
-          />
+      <Head>
+        <title>Marvel Heroes</title>
+      </Head>
+      <body className={robotoCondensed.className}>
+        <header className={styles.header}>
+          <Link href="/" aria-label="Go to homepage" className={styles.logo}>
+            <Marvel />
+          </Link>
+          <span className={styles.favorites}>
+            <HeartFilled /> {hearts}
+          </span>
         </header>
         {children}
-        <footer>Data provided by Marvel. © 2014 Marvel</footer>
+        <footer>
+          <a href="http://marvel.com">
+            Data provided by Marvel. © 2024 MARVEL
+          </a>
+        </footer>
       </body>
     </html>
   );
