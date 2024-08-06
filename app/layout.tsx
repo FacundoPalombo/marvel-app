@@ -28,9 +28,9 @@ export default function RootLayout({
           <Link href="/" aria-label="Go to homepage" className={styles.logo}>
             <Marvel />
           </Link>
-          <span className={styles.favorites}>
+          <Link href="/favorites" className={styles.favorites}>
             <HeartFilled /> {hearts}
-          </span>
+          </Link>
         </header>
         {children}
         <footer>

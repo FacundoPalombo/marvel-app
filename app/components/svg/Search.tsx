@@ -1,6 +1,11 @@
-export default function Search() {
+type SearchProps = {
+  className: string;
+};
+
+export default function Search({ className = "" }: SearchProps) {
   return (
     <svg
+      className={className}
       width="13"
       height="13"
       viewBox="0 0 13 13"
