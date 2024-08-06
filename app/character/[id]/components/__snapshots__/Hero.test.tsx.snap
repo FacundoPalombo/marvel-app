@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero unit tests should match to snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="hero"
+  >
+    <div
+      class="hero__container"
+    >
+      <img
+        alt="Tremendo Hero"
+        class="hero__image"
+        src="image"
+      />
+      <article
+        class="hero__content"
+      >
+        <div
+          class="hero__heading"
+        >
+          <h1
+            class="hero__title"
+          >
+            Tremendo Hero
+          </h1>
+          <button
+            class="hero__favorite"
+          >
+            <svg
+              class=""
+              fill="none"
+              height="22"
+              viewBox="0 0 24 22"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M12 3.63869L6 -0.00292969L0 3.63869V11.4422L12 21.6734L24 11.4422V3.63869L18 -0.00292969L12 3.63869Z"
+                fill="#EC1D24"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="hero__description"
+        >
+          lorem ipsum
+        </p>
+      </article>
+    </div>
+    <div
+      class="hero__borderShape"
+    />
+  </section>
+</DocumentFragment>
+`;

@@ -24,9 +24,11 @@ describe("Card component unit tests", () => {
       onClickFavorite: () => {},
     };
 
-    const { getByText } = render(<Card {...props} />);
+    const { getByText, getByRole } = render(<Card {...props} />);
 
     expect(getByText("Mr Beast")).toBeInTheDocument();
-    expect(getByText("Mr Beast is not favorite")).toBeInTheDocument();
+    expect(
+      getByRole("button", { name: "Mr Beast is not favorite" })
+    ).toBeInTheDocument();
   });
 });

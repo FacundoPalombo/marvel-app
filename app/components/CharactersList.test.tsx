@@ -2,8 +2,6 @@ import { render } from "@testing-library/react";
 import CharactersList from "./CharactersList";
 import characterFixture from "../fixtures/characters.json";
 
-jest.mock("./Card", () => () => "<div>Card component</div>");
-
 describe("CharactersList Unit tests", () => {
   it("should match snapshot", () => {
     const charactersListProps = {
@@ -20,6 +18,6 @@ describe("CharactersList Unit tests", () => {
     };
 
     const { getByText } = render(<CharactersList {...charactersListProps} />);
-    expect(getByText("3-D Man")).toBeInTheDocument();
+    expect(getByText("Spider-Girl (Anya Corazon)")).toBeInTheDocument();
   });
 });

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comic unit tests should match to snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="comic"
+  >
+    <img
+      alt="Tremendo comic"
+      class="comic__image"
+      src="image"
+    />
+    <h3
+      class="comic__title"
+    >
+      Tremendo comic
+    </h3>
+    <span
+      class="comic__issueDate"
+    >
+      2024
+    </span>
+  </div>
+</DocumentFragment>
+`;
