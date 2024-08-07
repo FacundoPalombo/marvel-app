@@ -55,7 +55,7 @@ export default function CharactersList({
 
   return (
     <>
-      <SearchBar count={characters?.length} onChange={handleSearch} />
+      <SearchBar count={actualCharacters?.length} onChange={handleSearch} />
       <section className={styles.container}>
         <FavoritesContext.Provider value={{ favorites, setFavorites }}>
           {actualCharacters?.map((character) => (

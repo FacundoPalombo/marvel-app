@@ -31,7 +31,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer>
-          <a href="http://marvel.com">
+          <a className={styles.attribution} href="http://marvel.com">
             Data provided by Marvel. © 2024 MARVEL
           </a>
         </footer>

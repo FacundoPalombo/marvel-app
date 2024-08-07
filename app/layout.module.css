@@ -17,3 +17,11 @@
     padding: 1em 4em;
   }
 }
+
+.attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  color: var(--font-secondary);
+}
