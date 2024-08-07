@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import Link from "next/link";
 
@@ -10,6 +10,7 @@ import styles from "./CharactersList.module.css";
 import Card from "./Card";
 import SearchBar from "./SearchBar";
 import { FavoritesContext } from "../favorites-context";
+import useFavorites from "../hooks/useFavorites";
 
 type CharactersListProps = {
   characters: Character[];
@@ -20,10 +21,7 @@ export default function CharactersList({
   characters,
   filterFavorites,
 }: CharactersListProps) {
-  const [favorites, setFavorites] = useState<string[]>(() => {
-    const favs = window.localStorage.getItem("favorites");
-    return JSON.parse(favs as string) || [];
-  });
+  const { favorites, setFavorites } = useFavorites();
 
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -34,10 +32,6 @@ export default function CharactersList({
         favorites.includes(character.id.toString())
       )
     : characters;
-
-  useEffect(() => {
-    window.localStorage.setItem("favorites", JSON.stringify(favorites));
-  }, [favorites]);
 
   const createQueryString = useCallback(
     (name: string, value: string) => {

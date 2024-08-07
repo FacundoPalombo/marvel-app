@@ -36,7 +36,7 @@ export default function Card({ id, image, title }: CardProps) {
               ? `${title} is favorite`
               : `${title} is not favorite`
           }
-          onClick={() => handleFavorite(id)}
+          onClick={handleFavorite}
         >
           {favorites?.includes(id) ? (
             <HeartFilled />

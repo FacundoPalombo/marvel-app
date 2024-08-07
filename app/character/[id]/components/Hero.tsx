@@ -4,7 +4,8 @@ import { FavoritesContext } from "@/app/favorites-context";
 import styles from "./Hero.module.css";
 
 import { HeartFilled, HeartOutline } from "@/app/components/svg/Heart";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
+import useFavorites from "@/app/hooks/useFavorites";
 
 type HeroProps = {
   img: string;
@@ -13,14 +14,7 @@ type HeroProps = {
   id: string;
 };
 export default function Hero({ img, description, name, id }: HeroProps) {
-  const [favorites, setFavorites] = useState<string[]>(() => {
-    const favs = window.localStorage.getItem("favorites");
-    return JSON.parse(favs as string) || [];
-  });
-
-  useEffect(() => {
-    window.localStorage.setItem("favorites", JSON.stringify(favorites));
-  }, [favorites]);
+  const { favorites, setFavorites } = useFavorites();
 
   const handleFavorite = useCallback(() => {
     if (favorites.includes(id)) {

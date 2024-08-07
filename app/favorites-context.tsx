@@ -1,8 +1,8 @@
-import { createContext, useContext } from "react";
+import { createContext, Dispatch, SetStateAction, useContext } from "react";
 
 export const FavoritesContext = createContext<{
-  favorites: string[] | [];
-  setFavorites: void | any;
+  favorites: string[];
+  setFavorites: Dispatch<SetStateAction<string[]>>;
 }>({
   favorites: [],
   setFavorites: () => {},
