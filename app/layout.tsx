@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Inter, Roboto_Condensed } from "next/font/google";
+import { Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import styles from "./layout.module.css";
-import Image from "next/image";
+
 import Marvel from "./components/svg/Marvel";
 import Link from "next/link";
-import Head from "next/head";
-import { HeartFilled } from "./components/svg/Heart";
+
+import HeartsCount from "./components/HeartsCount";
 
 const robotoCondensed = Roboto_Condensed({ subsets: ["latin"] });
 
@@ -20,7 +20,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const hearts = 3;
   return (
     <html lang="en">
       <body className={robotoCondensed.className}>
@@ -28,9 +27,7 @@ export default function RootLayout({
           <Link href="/" aria-label="Go to homepage" className={styles.logo}>
             <Marvel />
           </Link>
-          <Link href="/favorites" className={styles.favorites}>
-            <HeartFilled /> {hearts}
-          </Link>
+          <HeartsCount />
         </header>
         {children}
         <footer>

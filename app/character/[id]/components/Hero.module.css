@@ -51,6 +51,7 @@
 .hero__favorite {
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .hero__heartOutline {

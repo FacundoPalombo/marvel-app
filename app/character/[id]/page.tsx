@@ -28,7 +28,7 @@ export default async function CharacterDetail({ params }) {
         img={`${character.thumbnail.path}.${character.thumbnail.extension}`}
         name={character.name}
         description={character.description}
-        favorite={favorite}
+        id={id}
       />
       <ComicList comics={comics} />
     </main>

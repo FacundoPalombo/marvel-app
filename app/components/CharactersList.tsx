@@ -1,23 +1,43 @@
 "use client";
 
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useCallback, useEffect, useState } from "react";
+import { useDebouncedCallback } from "use-debounce";
+import Link from "next/link";
+
 import { Character } from "@/models/definitions";
 import styles from "./CharactersList.module.css";
 import Card from "./Card";
 import SearchBar from "./SearchBar";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { useCallback } from "react";
-
-import { useDebouncedCallback } from "use-debounce";
-import Link from "next/link";
+import { FavoritesContext } from "../favorites-context";
 
 type CharactersListProps = {
   characters: Character[];
+  filterFavorites: boolean;
 };
 
-export default function CharactersList({ characters }: CharactersListProps) {
+export default function CharactersList({
+  characters,
+  filterFavorites,
+}: CharactersListProps) {
+  const [favorites, setFavorites] = useState<string[]>(() => {
+    const favs = window.localStorage.getItem("favorites");
+    return JSON.parse(favs as string) || [];
+  });
+
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const router = useRouter();
+
+  const actualCharacters = filterFavorites
+    ? characters.filter((character) =>
+        favorites.includes(character.id.toString())
+      )
+    : characters;
+
+  useEffect(() => {
+    window.localStorage.setItem("favorites", JSON.stringify(favorites));
+  }, [favorites]);
 
   const createQueryString = useCallback(
     (name: string, value: string) => {
@@ -41,19 +61,23 @@ export default function CharactersList({ characters }: CharactersListProps) {
 
   return (
     <>
-      <SearchBar count={50} onChange={handleSearch} />
+      <SearchBar count={characters?.length} onChange={handleSearch} />
       <section className={styles.container}>
-        {characters?.map((character) => (
-          <div key={character.id}>
-            <Link className={styles.link} href={`/character/${character.id}`} />
-            <Card
-              title={character.name}
-              image={`${character.thumbnail.path}.${character.thumbnail.extension}`}
-              favorite={false}
-              onClickFavorite={() => {}}
-            />
-          </div>
-        ))}
+        <FavoritesContext.Provider value={{ favorites, setFavorites }}>
+          {actualCharacters?.map((character) => (
+            <div key={character.id}>
+              <Link
+                className={styles.link}
+                href={`/character/${character.id}`}
+              />
+              <Card
+                id={character.id?.toString()}
+                title={character.name}
+                image={`${character.thumbnail.path}.${character.thumbnail.extension}`}
+              />
+            </div>
+          ))}
+        </FavoritesContext.Provider>
       </section>
     </>
   );

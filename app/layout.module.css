@@ -17,10 +17,3 @@
     padding: 1em 4em;
   }
 }
-
-.favorites {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
-}

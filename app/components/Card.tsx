@@ -2,21 +2,27 @@
 
 import { HeartFilled, HeartOutline } from "./svg/Heart";
 import styles from "./Card.module.css";
-import { MouseEventHandler } from "react";
+import { useFavorites } from "../favorites-context";
+import { useCallback } from "react";
 
 type CardProps = {
+  id: string;
   image: string;
   title: string;
-  favorite: boolean;
-  onClickFavorite: MouseEventHandler<HTMLButtonElement>;
 };
 
-export default function Card({
-  image,
-  title,
-  favorite,
-  onClickFavorite,
-}: CardProps) {
+export default function Card({ id, image, title }: CardProps) {
+  const { favorites, setFavorites } = useFavorites();
+
+  const handleFavorite = useCallback(() => {
+    if (favorites.includes(id)) {
+      setFavorites(favorites.filter((fav) => fav !== id));
+    }
+    if (!favorites.includes(id)) {
+      setFavorites([...favorites, id]);
+    }
+  }, [favorites]);
+
   return (
     <div className={styles.container}>
       <img className={styles.card__thumbnail} src={image} alt={title} />
@@ -26,11 +32,13 @@ export default function Card({
         <button
           className={styles.content__favorite}
           aria-label={
-            favorite ? `${title} is favorite` : `${title} is not favorite`
+            favorites?.includes(id)
+              ? `${title} is favorite`
+              : `${title} is not favorite`
           }
-          onClick={onClickFavorite}
+          onClick={() => handleFavorite(id)}
         >
-          {favorite ? (
+          {favorites?.includes(id) ? (
             <HeartFilled />
           ) : (
             <HeartOutline className={styles.content__heartOutlined} />

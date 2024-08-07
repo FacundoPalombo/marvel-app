@@ -11,3 +11,10 @@
     padding: 3em;
   }
 }
+
+.title {
+  font-size: 3em;
+  text-transform: uppercase;
+  align-self: flex-start;
+  color: var(--font-secondary);
+}
