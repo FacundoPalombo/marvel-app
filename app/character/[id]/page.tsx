@@ -5,22 +5,26 @@ import {
 
 import styles from "./page.module.css";
 
-import characterDetail from "../../fixtures/character.json";
-import characterComics from "../../fixtures/comicsById.json";
+// import characterDetail from "../../fixtures/character.json";
+// import characterComics from "../../fixtures/comicsById.json";
 
 import Hero from "./components/Hero";
 import ComicList from "./components/ComicList";
 
-export default async function CharacterDetail({ params }) {
+type CharacterDetailProps = {
+  params: {
+    id: string;
+  };
+};
+
+export default async function CharacterDetail({
+  params,
+}: CharacterDetailProps) {
   const { id } = params;
-  // const characterDetail = await getCharacterById(id);
-  // const characterComics = await getComicsByCharacterId(id);
+  const characterDetail = await getCharacterById(id);
+  const characterComics = await getComicsByCharacterId(id);
   const character = characterDetail.data.results[0];
   const comics = characterComics.data.results;
-
-  const favorite = false;
-
-  const chars = JSON.stringify(characterDetail);
 
   return (
     <main className={styles.container}>
@@ -28,7 +32,7 @@ export default async function CharacterDetail({ params }) {
         img={`${character.thumbnail.path}.${character.thumbnail.extension}`}
         name={character.name}
         description={character.description}
-        favorite={favorite}
+        id={id}
       />
       <ComicList comics={comics} />
     </main>

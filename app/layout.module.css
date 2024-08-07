@@ -18,9 +18,10 @@
   }
 }
 
-.favorites {
+.attribution {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
+  justify-content: center;
+  margin: 2em;
+  color: var(--font-secondary);
 }

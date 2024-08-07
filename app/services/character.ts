@@ -9,7 +9,7 @@ export const getCharacters = async (characterName: string) => {
     ts,
     hash,
     apikey,
-    limit: "25",
+    limit: "50",
   });
 
   if (characterName) {
