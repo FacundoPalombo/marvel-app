@@ -1,9 +1,9 @@
-import { Comic as ComicType, DateFrom } from "@/models/comics";
-import Comic from "./Comic";
+import { Comic, DateFrom } from "@/models/comics";
+import ComicComponent from "./Comic";
 import styles from "./ComicList.module.css";
 
 type ComicListProps = {
-  comics: ComicType[];
+  comics: Comic[];
 };
 
 export default function ComicList({ comics }: ComicListProps) {
@@ -12,17 +12,17 @@ export default function ComicList({ comics }: ComicListProps) {
       <h2 className={styles.comicList__title}>Comics</h2>
       <section className={styles.comicList__content}>
         {comics?.map((comic) => (
-          <Comic
+          <ComicComponent
             key={comic.id}
             img={`${comic.thumbnail.path}.${comic.thumbnail.extension}`}
             issueDate={
               new Date(
                 comic.dates.find(
                   (date: DateFrom) => date.type === "onsaleDate"
-                ).date
+                )!.date as string
               )
-                .getFullYear()
-                .toString() || "unknown"
+                ?.getFullYear()
+                ?.toString() || "unknown"
             }
             title={comic.title}
           />

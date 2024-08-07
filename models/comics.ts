@@ -1,4 +1,4 @@
-type ComicsResponse = {
+export type ComicsResponse = {
   code: number;
   status: string;
   copyright: string;
@@ -8,7 +8,7 @@ type ComicsResponse = {
   data: Comics;
 };
 
-type Comics = {
+export type Comics = {
   offset: number;
   limit: number;
   total: number;
@@ -16,7 +16,7 @@ type Comics = {
   results: Comic[];
 };
 
-type Comic = {
+export type Comic = {
   id: number;
   digitalId: number;
   title: string;
@@ -48,67 +48,67 @@ type Comic = {
   events: Events;
 };
 
-type Events = {
+export type Events = {
   available: number;
   collectionURI: string;
   items: any[];
   returned: number;
 };
 
-type Stories = {
+export type Stories = {
   available: number;
   collectionURI: string;
   items: Item2[];
   returned: number;
 };
 
-type Item2 = {
+export type Item2 = {
   resourceURI: string;
   name: string;
   type: string;
 };
 
-type Characters = {
+export type Characters = {
   available: number;
   collectionURI: string;
   items: Series[];
   returned: number;
 };
 
-type Creators = {
+export type Creators = {
   available: number;
   collectionURI: string;
   items: Item[];
   returned: number;
 };
 
-type Item = {
+export type Item = {
   resourceURI: string;
   name: string;
   role: string;
 };
 
-type Thumbnail = {
+export type Thumbnail = {
   path: string;
   extension: string;
 };
 
-type Price = {
+export type Price = {
   type: string;
   price: number;
 };
 
-type DateFrom = {
+export type DateFrom = {
   type: string;
   date: string;
 };
 
-type Series = {
+export type Series = {
   resourceURI: string;
   name: string;
 };
 
-type Url = {
+export type Url = {
   type: string;
   url: string;
 };
