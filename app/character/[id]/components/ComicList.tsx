@@ -19,10 +19,10 @@ export default function ComicList({ comics }: ComicListProps) {
               new Date(
                 comic.dates.find(
                   (date: DateFrom) => date.type === "onsaleDate"
-                ).date
+                )!.date as string
               )
-                .getFullYear()
-                .toString() || "unknown"
+                ?.getFullYear()
+                ?.toString() || "unknown"
             }
             title={comic.title}
           />

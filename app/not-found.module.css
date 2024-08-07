@@ -1,0 +1,31 @@
+.notFound {
+  color: var(--font-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.notFound__code {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 12em;
+  @media screen and (min-width: 640px) {
+    font-size: 15em;
+  }
+}
+
+.notFound__message {
+  font-size: 2em;
+  @media screen and (min-width: 640px) {
+    font-size: 3em;
+  }
+}
+.notFound__link {
+  font-size: 2em;
+  @media screen and (min-width: 640px) {
+    font-size: 3em;
+  }
+}
